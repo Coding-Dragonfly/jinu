@@ -1,4 +1,4 @@
-// Animation Timeline
+ // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
@@ -240,7 +240,7 @@ const animationTimeline = () => {
     )
     .staggerTo(
       ".eight svg",
-      3.0,
+      2.0,
       {
         visibility: "visible",
         opacity: 0,
